@@ -1,9 +1,10 @@
 import React from 'react'
 
+
 const Main = () => {
   return (
-    <div className='w-full h-screen bg-[#0D1317]'>
-        <div className='max-w-[1000px] mx-uato px-8 flex flex-col justify-center h-full text-[white]'>
+    <div name='home' className='w-full h-screen bg-[#0D1317]'>
+        <div className='max-w-[1000px] mx-uato px-8 flex flex-col justify-center h-full text-[white]'> About ME
             <p1 className='text-[#9f45b0]'> Hello, my name is</p1>
             <h1 className='text-4xl sm:text-7xl font-bold text-[#6564DB]'>Ricardo Rangel</h1>
             <h2 className='text-2xl sm:text-4xl font-bold text-[#101D42]'>I am a Northwester coding bootcamp student.</h2>

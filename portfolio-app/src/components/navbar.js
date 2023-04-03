@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-scroll'
 
 const Navbar = () => {
   return (
@@ -6,10 +7,30 @@ const Navbar = () => {
         
         <div className=''>
             <ul className='flex'>
-                <li><a href="/">About Me</a></li>
-                <li><a href="/">Portfolio</a></li>
-                <li><a href="/">Contact</a></li>
-                <li><a href="/">Resume</a></li>
+                <li>
+                <Link to="home" smooth={true} duration={500} >
+                    About Me
+               </Link>
+                </li>
+
+                <li> 
+                  <Link to="projects" smooth={true} duration={500} >
+                    Projects
+                  </Link>
+               </li>
+
+                <li> 
+                  <Link to="resume" smooth={true} duration={500} >
+                    Resume
+                  </Link>
+               </li>
+
+                <li> 
+                  <Link to="contact" smooth={true} duration={500} >
+                    Contact
+                  </Link>
+               </li>
+
             </ul>
         </div>
        

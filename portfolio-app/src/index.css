@@ -2,14 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
 
 @layer base {
     body {
-        @apply font-[Orbitron];
+        @apply font-[Lato];
+        
     }
     li{
         @apply px-5;
         @apply cursor-pointer
     }
+    
 }
